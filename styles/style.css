@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --main-color: rgb(0, 0, 0);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    background-color: #0e1212;
+}
+
+#wrapper,
+main {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 52em) {}
