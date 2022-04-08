@@ -1,115 +1,94 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Bootstrap 5 CSS-->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
-    <!-- Our Styles -->
-    <link rel="stylesheet" href="../styles/style.css" />
-    <!-- Favicon stuff(icon in tab)-->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="../img/favicon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="../img/favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="../img/favicon/favicon-16x16.png"
-    />
-    <link rel="manifest" href="../img/favicon/site.webmanifest" />
-    <!-- Name -->
-    <title>Document</title>
-  </head>
+<!doctype html>
+<html lang="en" class="h-100">
 
-  <body>
-    <!-- Responsive Nav Bar -->
-    <div class="container">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.84.0">
+  <title>Cover Template · Bootstrap v5.0</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/cover/">
+
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+
+  <!-- Custom styles for this template -->
+  <link href="cover.css" rel="stylesheet">
+
+  <!-- Our Styles -->
+  <link rel="stylesheet" href="../styles/style.css">
+  <!-- Favicon stuff(icon in tab)-->
+  <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="../img/favicon/site.webmanifest">
+</head>
+
+<body class="d-flex h-100 text-center text-white bg-image "
+  style="background-image: url('../img/wallpapersden.com_sea-of-thieves-a-pirate-s-life_3840x2160.jpg');">
+
+  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+
+    <header class="mb-auto">
       <nav class="navbar navbar-expand-md navbar-dark">
         <a href="#" class="navbar-brand">
-          <img
-            src="../img/logo.png"
-            alt=""
-            width="40"
-            height="40"
-            class="d-inline-block align-top"
-            id="logo"
-          />
+          <img src="../img/logo.png" alt="" width="40" height="40" class="d-inline-block align-top" id="logo" />
         </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#toggleMobileMenu"
-          aria-controls="toggleMobileMenu"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu"
+          aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div
-          class="collapse navbar-collapse justify-content-center"
-          id="toggleMobileMenu"
-        >
+        <div class="collapse navbar-collapse justify-content-center" id="toggleMobileMenu">
           <ul class="navbar-nav">
-            <li>
-              <a href="home.html" class="nav-link text-center active">Home</a>
-            </li>
+            <li><a href="home.html" class="nav-link text-center active">Home</a></li>
             <li><a href="about.html" class="nav-link text-center">About</a></li>
-            <li>
-              <a href="codeOfConduct.html" class="nav-link text-center">CoC</a>
-            </li>
-            <li>
-              <a href="visionMissionStatement.html" class="nav-link text-center"
-                >Our Vision</a
-              >
-            </li>
-            <li>
-              <a href="ourTeam.html" class="nav-link text-center">Our Team</a>
-            </li>
+            <li><a href="codeOfConduct.html" class="nav-link text-center">CoC</a></li>
+            <li><a href="visionMissionStatement.html" class="nav-link text-center">Our Vision</a></li>
+            <li><a href="ourTeam.html" class="nav-link text-center">Our Team</a></li>
           </ul>
         </div>
       </nav>
-    </div>
+    </header>
 
-    <div class="text-light bg-dark p-4 m-4 rounded-2">
-      <p>
-        We pirates provide a service-based business. The only difference is that
-        we provide service to the customers against their will.
+    <main class="px-3">
+      <h1 class="py-3">Sea Sharp Pirates</h1>
+      <p class="lead">We pirates provide a service-based business. The only difference be that we provide service t'
+        the customers against thar will!</p>
+      <p class="lead">
+        <a href="../html/about.html" class="btn btn-lg btn-secondary fw-bold border-dark bg-dark">About</a>
       </p>
-      <ul>
-        <li>
-          If we don't service our customers, another crew undoubtedly will, and
-          our reward will be poverty.
-        </li>
-        <li>Unlike the royal navy, we shall enrich the whole crew equally.</li>
-        <li>
-          We must aim to provoke the least resistance to reduce cost. Violence
-          is simply a tool of intimidation; peaceful resolution is always the
-          goal.
-        </li>
-      </ul>
-    </div>
 
-    <!--Boostrap 5 Script-->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    </main>
+
+    <footer class="mt-auto text-white-50">
+      <p>&copy; 2022 Sea Sharp Pirates &middot; <a class="customLink" href="#">Privacy</a> &middot; <a
+          class="customLink" href="#">Terms</a></p>
+    </footer>
+  </div>
+
+
+
+</body>
+
 </html>
