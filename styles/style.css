@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 :root {
     --main-color: rgb(0, 0, 0);
@@ -11,13 +11,13 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #000;
     background-color: #0e1212;
 }
 
 .customLink {
-    color: #6f42c1;
+    color: #431f86;
     text-decoration: none;
 }
 
@@ -27,4 +27,5 @@ main {
     margin: 0 auto;
 }
 
-@media only screen and (max-width: 52em) {}
+@media only screen and (max-width: 52em) {
+}
